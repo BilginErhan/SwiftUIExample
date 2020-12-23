@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B216639E25938788005D6171 /* SFSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B216639D25938788005D6171 /* SFSymbolView.swift */; };
+		B21663A725938C04005D6171 /* SlotMachineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21663A625938C04005D6171 /* SlotMachineView.swift */; };
+		B21663AF25938F09005D6171 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21663AE25938F09005D6171 /* StartView.swift */; };
+		B21663B425938FC3005D6171 /* HeaderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21663B325938FC3005D6171 /* HeaderTextView.swift */; };
+		B21663B925939118005D6171 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21663B825939118005D6171 /* CounterView.swift */; };
+		B21663CB259394CA005D6171 /* SlotMachineImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21663CA259394CA005D6171 /* SlotMachineImageView.swift */; };
+		B21663D325939619005D6171 /* SlotMachineButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21663D225939619005D6171 /* SlotMachineButtonView.swift */; };
+		B21663D8259397DC005D6171 /* SlotMachineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21663D7259397DC005D6171 /* SlotMachineHeaderView.swift */; };
+		B21663DD259398C1005D6171 /* SlotMachineSlotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21663DC259398C1005D6171 /* SlotMachineSlotsView.swift */; };
+		B21663E225939E77005D6171 /* SlotMachineBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21663E125939E77005D6171 /* SlotMachineBackground.swift */; };
 		B285C9672593747600CD00D4 /* SwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285C9662593747600CD00D4 /* SwiftUIExampleApp.swift */; };
 		B285C9692593747600CD00D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285C9682593747600CD00D4 /* ContentView.swift */; };
 		B285C96B2593747600CD00D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B285C96A2593747600CD00D4 /* Assets.xcassets */; };
 		B285C96E2593747600CD00D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B285C96D2593747600CD00D4 /* Preview Assets.xcassets */; };
 		B285C9792593747600CD00D4 /* SwiftUIExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285C9782593747600CD00D4 /* SwiftUIExampleTests.swift */; };
 		B285C9842593747600CD00D4 /* SwiftUIExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285C9832593747600CD00D4 /* SwiftUIExampleUITests.swift */; };
+		B285C99E259378EB00CD00D4 /* LemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285C99D259378EB00CD00D4 /* LemonView.swift */; };
+		B285C9A6259379A000CD00D4 /* LemonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285C9A5259379A000CD00D4 /* LemonScreen.swift */; };
+		B285C9AD25937C3600CD00D4 /* PinkBuildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285C9AC25937C3600CD00D4 /* PinkBuildView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B216639D25938788005D6171 /* SFSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolView.swift; sourceTree = "<group>"; };
+		B21663A625938C04005D6171 /* SlotMachineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineView.swift; sourceTree = "<group>"; };
+		B21663AE25938F09005D6171 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		B21663B325938FC3005D6171 /* HeaderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTextView.swift; sourceTree = "<group>"; };
+		B21663B825939118005D6171 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		B21663CA259394CA005D6171 /* SlotMachineImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineImageView.swift; sourceTree = "<group>"; };
+		B21663D225939619005D6171 /* SlotMachineButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineButtonView.swift; sourceTree = "<group>"; };
+		B21663D7259397DC005D6171 /* SlotMachineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineHeaderView.swift; sourceTree = "<group>"; };
+		B21663DC259398C1005D6171 /* SlotMachineSlotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineSlotsView.swift; sourceTree = "<group>"; };
+		B21663E125939E77005D6171 /* SlotMachineBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineBackground.swift; sourceTree = "<group>"; };
 		B285C9632593747600CD00D4 /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B285C9662593747600CD00D4 /* SwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleApp.swift; sourceTree = "<group>"; };
 		B285C9682593747600CD00D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +68,9 @@
 		B285C97F2593747600CD00D4 /* SwiftUIExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B285C9832593747600CD00D4 /* SwiftUIExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleUITests.swift; sourceTree = "<group>"; };
 		B285C9852593747600CD00D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B285C99D259378EB00CD00D4 /* LemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonView.swift; sourceTree = "<group>"; };
+		B285C9A5259379A000CD00D4 /* LemonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonScreen.swift; sourceTree = "<group>"; };
+		B285C9AC25937C3600CD00D4 /* PinkBuildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkBuildView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +98,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B216639C25938775005D6171 /* SFSymbols */ = {
+			isa = PBXGroup;
+			children = (
+				B216639D25938788005D6171 /* SFSymbolView.swift */,
+			);
+			path = SFSymbols;
+			sourceTree = "<group>";
+		};
+		B21663A525938BF6005D6171 /* SlotMachine */ = {
+			isa = PBXGroup;
+			children = (
+				B21663A625938C04005D6171 /* SlotMachineView.swift */,
+				B21663AE25938F09005D6171 /* StartView.swift */,
+				B21663B325938FC3005D6171 /* HeaderTextView.swift */,
+				B21663B825939118005D6171 /* CounterView.swift */,
+				B21663CA259394CA005D6171 /* SlotMachineImageView.swift */,
+				B21663D225939619005D6171 /* SlotMachineButtonView.swift */,
+				B21663D7259397DC005D6171 /* SlotMachineHeaderView.swift */,
+				B21663DC259398C1005D6171 /* SlotMachineSlotsView.swift */,
+				B21663E125939E77005D6171 /* SlotMachineBackground.swift */,
+			);
+			path = SlotMachine;
+			sourceTree = "<group>";
+		};
 		B285C95A2593747500CD00D4 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +145,7 @@
 		B285C9652593747600CD00D4 /* SwiftUIExample */ = {
 			isa = PBXGroup;
 			children = (
+				B285C99C259378D500CD00D4 /* UIExample */,
 				B285C9662593747600CD00D4 /* SwiftUIExampleApp.swift */,
 				B285C9682593747600CD00D4 /* ContentView.swift */,
 				B285C96A2593747600CD00D4 /* Assets.xcassets */,
@@ -128,6 +179,34 @@
 				B285C9852593747600CD00D4 /* Info.plist */,
 			);
 			path = SwiftUIExampleUITests;
+			sourceTree = "<group>";
+		};
+		B285C99C259378D500CD00D4 /* UIExample */ = {
+			isa = PBXGroup;
+			children = (
+				B21663A525938BF6005D6171 /* SlotMachine */,
+				B216639C25938775005D6171 /* SFSymbols */,
+				B285C9AB25937C1A00CD00D4 /* PinkBuild */,
+				B285C9AA25937C1100CD00D4 /* Lemon */,
+			);
+			path = UIExample;
+			sourceTree = "<group>";
+		};
+		B285C9AA25937C1100CD00D4 /* Lemon */ = {
+			isa = PBXGroup;
+			children = (
+				B285C99D259378EB00CD00D4 /* LemonView.swift */,
+				B285C9A5259379A000CD00D4 /* LemonScreen.swift */,
+			);
+			path = Lemon;
+			sourceTree = "<group>";
+		};
+		B285C9AB25937C1A00CD00D4 /* PinkBuild */ = {
+			isa = PBXGroup;
+			children = (
+				B285C9AC25937C3600CD00D4 /* PinkBuildView.swift */,
+			);
+			path = PinkBuild;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +338,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21663CB259394CA005D6171 /* SlotMachineImageView.swift in Sources */,
 				B285C9692593747600CD00D4 /* ContentView.swift in Sources */,
+				B21663E225939E77005D6171 /* SlotMachineBackground.swift in Sources */,
+				B21663A725938C04005D6171 /* SlotMachineView.swift in Sources */,
+				B285C99E259378EB00CD00D4 /* LemonView.swift in Sources */,
+				B21663DD259398C1005D6171 /* SlotMachineSlotsView.swift in Sources */,
+				B21663AF25938F09005D6171 /* StartView.swift in Sources */,
 				B285C9672593747600CD00D4 /* SwiftUIExampleApp.swift in Sources */,
+				B21663B425938FC3005D6171 /* HeaderTextView.swift in Sources */,
+				B285C9A6259379A000CD00D4 /* LemonScreen.swift in Sources */,
+				B21663D8259397DC005D6171 /* SlotMachineHeaderView.swift in Sources */,
+				B21663D325939619005D6171 /* SlotMachineButtonView.swift in Sources */,
+				B285C9AD25937C3600CD00D4 /* PinkBuildView.swift in Sources */,
+				B216639E25938788005D6171 /* SFSymbolView.swift in Sources */,
+				B21663B925939118005D6171 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
