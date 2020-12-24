@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct SwiftUISlotView: View {
-    
+    //VStack max elemens size 10
     @State private var credits = 1000
     @State private var numbers = [1, 2, 0]
-    private var symbols = ["apple", "star", "cherry"]
+    @State private var backgrounds = [Color.white, Color.white, Color.white]
+    @State private var symbols = ["apple", "star", "cherry"]
     private var betAmount = 10
     
     var body: some View {
@@ -53,39 +54,31 @@ struct SwiftUISlotView: View {
                 //Cards
                 HStack{
                     Spacer()
-                    Image(symbols[numbers[0]])
-                        .resizable()
-                        .aspectRatio(1,contentMode: .fit)
-                        .background(Color.white.opacity(0.5))
-                        .cornerRadius(20)
-                    
-                    Image(symbols[numbers[1]])
-                        .resizable()
-                        .aspectRatio(1,contentMode: .fit)
-                        .background(Color.white.opacity(0.5))
-                        .cornerRadius(20)
-                    
-                    Image(symbols[numbers[2]])
-                        .resizable()
-                        .aspectRatio(1,contentMode: .fit)
-                        .background(Color.white.opacity(0.5))
-                        .cornerRadius(20)
-                    
+                    SlotCardView(symbol: $symbols[numbers[0]],background: $backgrounds[0])
+                    SlotCardView(symbol: $symbols[numbers[1]],background: $backgrounds[1])
+                    SlotCardView(symbol: $symbols[numbers[2]],background: $backgrounds[2])
                     Spacer()
                 }
                 Spacer()
                 Button(action: {
-                    self.credits += 1
                     
-                    self.numbers[0] = Int.random(in: 0...symbols.count - 1)
+                    self.backgrounds = self.backgrounds.map({ _ in
+                        Color.white
+                    })
                     
-                    self.numbers[1] = Int.random(in: 0...symbols.count - 1)
-                    
-                    self.numbers[2] = Int.random(in: 0...symbols.count - 1)
+                    self.numbers = self.numbers.map({ _ in
+                        Int.random(in: 0...symbols.count - 1)
+                    })
                     
                     if self.numbers[0] == self.numbers[1] &&
                         self.numbers[1] == self.numbers[2] {
                         self.credits += self.betAmount * 10
+                        
+                        
+                        self.backgrounds = self.backgrounds.map({ _ in
+                            Color.green
+                        })
+                        
                     }else{
                         self.credits -= self.betAmount
                     }
